@@ -3,7 +3,7 @@
 @import url(css/consultas.css);
 
 :root {
-    --cor-background: #ebebeb;
+    --cor-background: #f8f8f8;
 
     --cor-primaria: #4894FF;
     --cor-secundaria: #FFB050;
@@ -28,4 +28,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;
+    color: var(--cor-fonte-primaria);
+
+    background-color: var(--cor-background);
 }

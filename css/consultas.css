@@ -1,0 +1,120 @@
+.consultas {
+    width: 90%;
+    margin:2em auto;
+}
+
+.consultas__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor-fonte-primaria);
+
+    margin-bottom: 1em;
+}
+
+.card {
+    background-color: var(--cor-fonte-terciaria);
+    margin-bottom: 1em;
+
+    border-radius: 10px;   
+}
+
+.informacoes__paciente {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1em;
+}
+
+.informacoes__paciente div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.informacoes__paciente ul {
+    margin-left: 1em;
+}
+
+.nome-paciente {
+    font-weight: 700;
+    color: var(--cor-fonte-primaria);
+
+    margin-bottom: 0.5em;
+}
+
+.tipo-consulta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 12px;
+    color: var(--cor-fonte-secundaria);
+}
+
+.consultas__imagem-paciente {
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+}
+
+.linha-horizontal {
+    color: var(--cor-background);
+
+	border-top: 1px solid var(--cor-background);
+}
+
+.informacoes__consulta {
+    padding: 1em;
+}
+
+.informacoes__consulta-horario {
+    font-size: 12px;
+    font-weight: 500;
+
+    margin-bottom: 1em;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 139px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+}
+
+.btn-video {
+    background-color: var(--cor-secundaria);
+
+    color: var(--cor-fonte-terciaria);
+}
+
+.btn-audio {
+    background-color: var(--cor-fonte-terciaria);
+    border: 1px solid #ECECEC;
+
+
+}
+
+.btn-endereco {
+    width: 100%;
+    
+    background-color: var(--cor-primaria);
+
+    color: var(--cor-fonte-terciaria);
+}
+
+.consultas-chat {
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    padding: 0.5em;
+}
