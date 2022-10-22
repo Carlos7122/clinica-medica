@@ -1,0 +1,17 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px 2em;
+
+    background-color: var(--cor-fonte-terciaria);
+}
+
+.cabecalho__lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho__lista-item {
+    padding: 0 0.5em;
+}

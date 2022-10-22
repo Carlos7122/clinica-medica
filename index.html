@@ -5,10 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica médica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>teste</h1>
+  <header class="cabecalho">
+    <p>03:33</p>
+    <ul class="cabecalho__lista">
+        <li class="cabecalho__lista-item"><img src="img/signal_cellular_4_bar.svg" alt="Icone de sinal de celular"></li>
+        <li class="cabecalho__lista-item"><img src="img/battery_full.svg" alt="icone de bateria"></li>
+        <li class="cabecalho__lista-item"><img src="img/wifi.svg" alt="icone de wifi"></li>
+    </ul>
+  </header>
+  <section class="medico">
+    <img src="img/perfil-1.svg" class="medico__imagem" alt="Imagem da médica responsavel pelas consultas">
+    <div class="medico__informacoes">
+        <h1 class="medico__titulo">Olá, Sônia</h1>
+        <p class="medico__descricao">Mais 4 consultas hoje</p>
+    </div>
+  </section>
+  <section class="consultas">
+    <h2 class="consultas__titulo">Hoje</h2>
+    <div class="card1">
+      <div class="informacoes__paciente">
+        <img src="img/perfil-2.svg" alt="Foto de perfil de um paciente" class="consultas__imagem-paciente">
+        <ul>
+          <li>Luciana Dias</li>
+          <li><img src="img/Camera.svg" alt="icone de uma camera"> Consulta remota</li>
+        </ul>
+        <img src="img/chat1.svg" alt="icone de um chat de conversa" class="consultas__chat">
+      </div>
+      <div class="informacoes__consulta">
+        <hr width="100%">
+        <p class="informacoes__consulta-horario">14:00 - 15:00 (1 hora)</p>
+        <button>Ligar por vídeo</button>
+        <button>Ligar por áudio</button>
+      </div>
+    </div>
+    <div class="card2">
+
+    </div>
+    <div class="card3">
+
+    </div>
+  </section>
+
 </body>
 </html>

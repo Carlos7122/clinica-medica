@@ -1,5 +1,9 @@
+@import url(css/cabecalho.css);
+@import url(css/medico.css);
+@import url(css/consultas.css);
+
 :root {
-    --cor-background: #E5E5E5;
+    --cor-background: #ebebeb;
 
     --cor-primaria: #4894FF;
     --cor-secundaria: #FFB050;
@@ -17,5 +21,11 @@
     --cor-fonte-secundaria: #A3A3A3;
     --cor-fonte-terciaria: #FFFFFF;
 
-    --fonte-principal: 
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
 }
